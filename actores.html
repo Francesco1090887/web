@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Análisis de Requerimientos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Análisis de Requerimientos - Te Apoyamos SAS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#enfoque">Enfoque</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#recopilacion">Recopilación de Datos</a></li>
+        
+                        <!-- Menú desplegable "Más" -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="actores.html">Actores</a></li>
+                                <li><a class="dropdown-item" href="requisitos.html">Requisitos</a></li>
+                                <li><a class="dropdown-item" href="especificaciones.html">Especificaciones</a></li>
+                                <li><a class="dropdown-item" href="conclusiones.html">Conclusiones</a></li>
+                                <li><a class="dropdown-item" href="conceptos.html">Conceptos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    
+    
+    <section id="hero" class="hero bg-primary text-white text-center py-5" style="background-image: url('imagenes/actores.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4"></h1>
+            <p class="lead">Los actores son todas las entidades o personas que interactúan con el sistema. Estos pueden ser usuarios, sistemas externos o cualquier otra entidad que influya 
+                o sea afectada por el funcionamiento del sistema. Los actores tienen diferentes roles y necesidades que el sistema debe satisfacer</p>
+            <a href="#actores" class="btn btn-light btn-lg">Conoce más</a>
+        </div>
+    </section>
+    
+      
+
+    
+    
+
+    
+    <section id="actores" class="container mt-5 pt-5">
+        <h2 class="text-center">Actores del Sistema</h2>
+        <p class="text-center">Aquí se describen los diferentes actores que interactúan con la plataforma.</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/actor1.jpg" class="card-img-top" alt="Actor 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Usuarios Generales</h5>
+                        <p class="card-text">Los usuarios generales esperan una plataforma accesible e informativa donde puedan conocer los servicios de la firma, 
+                            su trayectoria, noticias de interés legal y medios de contacto. Necesitan una interfaz intuitiva que les permita explorar la información
+                             de manera sencilla y actualizada, garantizando confianza en la firma y sus servicios..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/actor2.jpg" class="card-img-top" alt="Actor 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Profesionales Adscritos</h5>
+                        <p class="card-text">Los profesionales adscritos necesitan un sistema que facilite el registro y seguimiento de los procesos legales en los que trabajan. Requieren
+                             herramientas que les permitan almacenar y actualizar datos de clientes, tipos de procesos y avances en tiempo real, garantizando una gestión eficiente. También
+                              necesitan un espacio donde puedan mostrar su perfil profesional, destacando su experiencia, especialización y trayectoria dentro de la firma, lo que les permite generar confianza y credibilidad en sus servicios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/actor3.jpg" class="card-img-top" alt="Actor 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Clientes</h5>
+                        <p class="card-text">Los clientes necesitan un canal de comunicación confiable con la firma y sus abogados. Esperan poder acceder a información sobre el estado de sus procesos 
+                            legales y recibir actualizaciones de manera segura. También valoran un sistema que les permita realizar consultas y programar citas con los profesionales de la firma.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Nueva fila -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/actor4.jpg" class="card-img-top" alt="Actor 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Aspirantes a Profesionales</h5>
+                        <p class="card-text">Los aspirantes a profesionales buscan una plataforma donde puedan registrar su hoja de vida y postularse para trabajar en la firma. Requieren un proceso de 
+                            inscripción claro y eficiente, así como la posibilidad de recibir notificaciones sobre el estado de su postulación y los criterios de selección aplicados por la firma.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/actor5.jpg" class="card-img-top" alt="Actor 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Soporte Técnico:</h5>
+                        <p class="card-text">El soporte técnico necesita herramientas para monitorear el correcto funcionamiento del sistema, atender incidentes y garantizar la disponibilidad de la plataforma. 
+                            También requieren mecanismos de seguridad y respaldo de datos para prevenir pérdidas de información y asegurar la integridad del sistema.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/actor6.jpg" class="card-img-top" alt="Actor 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Administradores del sistema</h5>
+                        <p class="card-text">Los administradores del sistema requieren acceso a herramientas de gestión y control que les permitan supervisar la información almacenada, administrar los perfiles de los 
+                            usuarios, controlar el acceso a los datos y generar reportes sobre el uso de la plataforma. Además, necesitan garantizar el cumplimiento de los lineamientos de seguridad y normativas legales
+                             en la gestión de la información.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer class="text-center p-3 bg-primary text-white mt-5">
+        &copy; 2025 Sandy Francesco Barón Romero - Todos los derechos reservados
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

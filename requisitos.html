@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Análisis de Requerimientos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Análisis de Requerimientos - Te Apoyamos SAS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#enfoque">Enfoque</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#recopilacion">Recopilación de Datos</a></li>
+        
+                        <!-- Menú desplegable "Más" -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="actores.html">Actores</a></li>
+                                <li><a class="dropdown-item" href="requisitos.html">Requisitos</a></li>
+                                <li><a class="dropdown-item" href="especificaciones.html">Especificaciones</a></li>
+                                <li><a class="dropdown-item" href="conclusiones.html">Conclusiones</a></li>
+                                <li><a class="dropdown-item" href="conceptos.html">Conceptos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="hero" class="hero bg-primary text-white text-center py-5" style="background-image: url('imagenes/requisitos.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4"></h1>
+            <p class="lead">Los requerimientos funcionales describen lo que el sistema debe hacer, como permitir el registro de usuarios, gestionar casos legales o enviar notificaciones. Por otro lado, los requerimientos
+                 no funcionales establecen cómo debe funcionar, incluyendo aspectos como rendimiento, seguridad, disponibilidad y usabilidad. Mientras los funcionales garantizan que el sistema cumpla su propósito, los no
+                  funcionales aseguran su eficiencia, estabilidad y calidad. Ambos son esenciales para el éxito de cualquier desarrollo.</p>
+            <a href="#requisitos" class="btn btn-light btn-lg">Conoce más</a>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <section id="requisitos" class="container mt-5 pt-5">
+        <h2 class="text-center">Requisitos del Sistema</h2>
+        <p class="text-center">Aquí se detallan los requisitos funcionales y no funcionales del sistema.</p>
+        
+        <h3 class="mt-4">Requisitos Funcionales</h3>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo de Información Institucional</h5><br>
+                        <p class="card-text">El Módulo de Información Institucional proporcionará una visión completa de la firma de abogados, incluyendo una página de presentación
+                             donde se destacará su misión, visión, valores y trayectoria. Contará con una sección detallada de los servicios ofrecidos, permitiendo a los usuarios conocer
+                              en profundidad las áreas de especialización de la firma. Además, integrará un espacio para la publicación de noticias y actualizaciones legales, asegurando 
+                              información relevante y actualizada para el público. También se incluirá un perfil de los abogados con detalles sobre su especialización y ubicación, facilitando
+                               la identificación del profesional adecuado para cada caso. La plataforma destacará las alianzas estratégicas y reconocimientos obtenidos, fortaleciendo la credibilidad de la firma.
+                                Finalmente, se implementará un formulario de contacto con integración de correo electrónico y/o chatbot, garantizando una comunicación eficiente con los clientes y usuarios interesados en sus servicios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo de Gestión de Aspirantes</h5><br>
+                        <p class="card-text">El Módulo de Gestión de Aspirantes permitirá a los abogados interesados en unirse a la firma registrarse a través de un formulario en línea, proporcionando su información personal y profesional. 
+                            Contará con una opción para cargar documentos como la hoja de vida y certificaciones, facilitando el proceso de postulación. Además, incluirá un panel de administración donde los responsables de selección podrán revisar 
+                            y evaluar las solicitudes recibidas, asegurando un proceso de admisión estructurado y eficiente. El sistema también enviará notificaciones automáticas a los postulantes, informándolos sobre el estado de su solicitud 
+                            y los pasos a seguir en caso de ser aceptados. Con este módulo, la firma podrá optimizar la gestión de aspirantes, garantizando un seguimiento detallado y transparente en la selección de nuevos profesionales</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo de Gestión de Procesos Legales</h5><br>
+                        <p class="card-text">El Módulo de Gestión de Procesos Legales permitirá registrar clientes con su información personal y datos de contacto, asegurando una base de datos organizada y accesible. Incluirá una sección para el 
+                            registro y seguimiento de procesos legales, detallando cada caso y su estado actual. Además, contará con un sistema de actualización de avances, permitiendo que solo los clientes autorizados accedan a la información relevante 
+                            sobre su proceso. Para mejorar la comunicación, el sistema enviará notificaciones automáticas a los clientes cuando haya cambios en el estado de su caso, garantizando transparencia y eficiencia en la gestión. Este módulo facilitará 
+                            el control y monitoreo de los procesos legales, optimizando la interacción entre los abogados y sus clientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo de Seguridad y Administración</h5><br>
+                        <p class="card-text">El Módulo de Seguridad y Administración garantizará un control de acceso eficiente mediante la asignación de roles específicos para administradores, abogados y clientes, asegurando que cada usuario acceda solo a la 
+                            información correspondiente. Implementará un sistema de copias de seguridad automáticas para resguardar la base de datos y prevenir la pérdida de información en caso de fallos técnicos. Además, cumplirá con normativas de protección 
+                            de datos y privacidad, asegurando que la información sensible de los usuarios esté protegida conforme a los estándares legales vigentes. Este módulo proporcionará una gestión segura y confiable del sistema, fortaleciendo la integridad
+                             y confidencialidad de los datos manejados por la firma.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 class="mt-4">Requisitos No Funcionales</h3>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Seguridad</h5><br>
+                        <p class="card-text">El requisito de Seguridad garantizará la protección de la información mediante autenticación y autorización de usuarios, utilizando contraseñas cifradas para evitar accesos indebidos. Además, se implementarán medidas de 
+                            seguridad como firewalls y encriptación de datos, previniendo intrusiones y accesos no autorizados al sistema. El cumplimiento de normativas internacionales, como el GDPR y la ISO 27001, asegurará que la plataforma opere bajo estándares 
+                            de seguridad y privacidad, protegiendo la confidencialidad y la integridad de los datos de los usuarios. Estas medidas fortalecerán la confianza en el sistema y garantizarán la protección de la información sensible manejada por la firma.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Usabilidad</h5><br>
+                        <p class="card-text">El requisito de  asegurará que la plataforma cuente con una interfaz intuitiva y fácil de navegar, permitiendo a los usuarios acceder a la información y funciones del sistema sin dificultad. Además, se implementará 
+                            un diseño responsivo que garantice una experiencia óptima en computadoras, tablets y smartphones, adaptándose automáticamente a diferentes tamaños de pantalla. Para fomentar la inclusión, la plataforma cumplirá con los estándares WCAG, asegurando 
+                            accesibilidad para personas con discapacidades y permitiendo que todos los usuarios puedan interactuar con el sistema de manera efectiva. Estas características mejorarán la experiencia del usuario y facilitarán el acceso a los servicios de la firma.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Escalabilidad</h5><br>
+                        <p class="card-text">El requisito de Escalabilidad garantizará que el sistema tenga la capacidad de expandirse para soportar un aumento en la cantidad de usuarios y procesos en el futuro, sin comprometer su rendimiento. La plataforma estará diseñada con una 
+                            arquitectura modular, lo que permitirá la integración de nuevas funcionalidades o mejoras de forma flexible y eficiente, sin afectar la estabilidad ni la velocidad del sistema. Esta capacidad de expansión asegurará que la firma pueda adaptarse a sus necesidades
+                             crecientes, manteniendo una operación fluida y sin interrupciones, incluso a medida que aumenten la demanda y la complejidad de los procesos gestionados..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Disponibilidad</h5><br>
+                        <p class="card-text">El requisito de Disponibilidad asegurará que el sistema esté operativo y accesible al menos el 99% del tiempo, garantizando un servicio confiable y continuo para los usuarios. Para prevenir interrupciones, se implementarán mecanismos de respaldo y
+                             recuperación ante fallos, lo que permitirá restaurar rápidamente la plataforma en caso de problemas técnicos o fallos imprevistos. Estas medidas garantizarán la continuidad del servicio, minimizando el tiempo de inactividad y permitiendo a la firma ofrecer un
+                              sistema estable y confiable para sus clientes y usuarios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rendimiento</h5><br>
+                        <p class="card-text">El requisito de Rendimiento garantizará que el sistema ofrezca tiempos de respuesta inferiores a 3 segundos en todas las operaciones principales, asegurando una experiencia de usuario fluida y sin demoras. Para lograrlo, se implementarán técnicas 
+                            de optimización en el diseño y funcionamiento de la plataforma, así como en la optimización de la base de datos para evitar sobrecargas y mantener la eficiencia en el manejo de grandes volúmenes de información. Estas medidas contribuirán a que el sistema sea ágil, 
+                            rápido y eficiente, mejorando la interacción del usuario y la productividad general de la firma.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mantenibilidad</h5><br>
+                        <p class="card-text">El requisito de Mantenibilidad asegurará que el sistema sea fácil de actualizar y mantener a largo plazo mediante un código bien estructurado y documentado, lo que facilitará futuras modificaciones y mejoras. La plataforma estará diseñada con una 
+                            separación clara entre el frontend y el backend, lo que permitirá mayor flexibilidad al realizar cambios en cualquiera de estas áreas sin afectar el funcionamiento global del sistema. Además, se seguirán estándares de desarrollo y buenas prácticas para garantizar 
+                            que el código sea limpio, eficiente y fácil de entender por otros desarrolladores, lo que optimizará los procesos de mantenimiento y actualización en el futuro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+    <footer class="text-center p-3 bg-primary text-white mt-5">
+        &copy; 2025 Sandy Francesco Barón Romero - Todos los derechos reservados
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    
